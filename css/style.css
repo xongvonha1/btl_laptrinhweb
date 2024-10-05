@@ -160,10 +160,7 @@ nav li:hover .menu-down {
   display: block;
   position: relative; /* or absolute */
   z-index: 9999;
- 
 }
-
-
 
 nav li {
   float: left;
@@ -213,6 +210,8 @@ nav li {
 .breadcumbs-container span {
   color: hsl(0, 2%, 62%);
 }
+
+
 
 main .title-product {
   height: 42px;
@@ -280,59 +279,87 @@ section > #button-search-input {
 }
 
 @media only screen and (max-width: 768px) {
+  body{
+    font-size: smaller;
+  }
+  header {
+    display: block;
+    width: 100%;
+  }
+  header > ul > li:nth-child(2) {
+    display: none;
+  }
+  header > ul > li:nth-child(3) {
+    display: none;
+  }
+  header > ul > li:nth-child(4) {
+    display: none;
+  }
+  header > ul > li:nth-child(5) {
+    display: none;
+  }
+  header > ul > li:nth-child(6) {
+    display: none;
+  }
+  main{
+    margin-top: 30%;
+  }
   main aside,
   main section {
+    display: block;
+    width: 100%;
+  }
+  .footer-content{
     display: block;
     width: 100%;
   }
 }
 
 /* start section */
-.row{
+.row {
   margin: 20px;
   width: 100%;
 }
-.gallery{
+.gallery {
   display: inline-block;
   width: 200px;
   height: auto;
-  border: 1px solid  hsla(0, 0%, 87%, 0.292);
+  border: 1px solid hsla(0, 0%, 87%, 0.292);
   padding: 13px;
   margin: 20px;
 }
 
-.gallery .decription{
+.gallery .decription {
   padding: 15px;
-  
 }
 
-.decription a{
+.decription a {
   text-decoration: none;
   color: black;
 }
 
-.gallery .decription .money{
+.gallery .decription .money {
   color: red;
 }
 
-.decription .money-price{
+.decription .money-price {
   color: hsl(0, 0%, 60%);
 }
 
-.gallery:hover{
+.gallery:hover {
   border: 1px solid hsla(0, 0%, 87%, 0.708);
   cursor: pointer;
   transform: scale(1.1);
-  
+
   transform-origin: bottom;
 }
 
-.gallery img{
+.gallery img {
   width: 100%;
   height: auto;
 }
 /* pagination css */
-.pagination{
+.pagination {
   width: 100%;
   height: 30px;
   padding: 20px;
@@ -340,33 +367,27 @@ section > #button-search-input {
   text-align: center;
 }
 
-.pagination span{
+.pagination span {
   margin: 0 10px;
   font-size: larger;
-  
 }
 
-.pagination span a{
+.pagination span a {
   text-decoration: none;
   color: hsl(0, 0%, 50%);
 }
 
-.pagination span a:hover{
+.pagination span a:hover {
   color: black;
   font-weight: bold;
 }
 /* start footer */
-footer {
-  margin-top: 100%;
-  
-  height: 660px;
+.footer-content {
+  margin-top: 1400px;
+  text-align: center;
+  align-content: center;
+  height: 300px;
   background-color: #1872b9;
   color: #fff;
   padding: 0;
-  
 }
-
-
-
-
-
