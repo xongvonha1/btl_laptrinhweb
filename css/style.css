@@ -1,0 +1,399 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.top-header {
+  margin-bottom: 20px;
+  background-color: #1878b9;
+  text-align: center;
+  color: azure;
+  padding: 25px;
+  border: none;
+  width: 100%;
+}
+
+.top-header p {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* start header */
+
+header {
+  width: 100%;
+  height: 108px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul li {
+  list-style-type: none;
+  margin: auto;
+}
+
+header ul li a {
+  text-decoration: none;
+}
+
+header input {
+  width: 354px;
+  height: 46px;
+  padding: 15px;
+  font-size: larger;
+  outline: none;
+  border: 1px solid #ddd;
+}
+
+#button-search {
+  width: 54px;
+  height: 46px;
+  text-align: center;
+  background-color: #2776e8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 100px;
+}
+
+#button-search i {
+  color: #fff;
+}
+
+#button-search:hover {
+  background-color: hsla(215, 81%, 53%, 0.849);
+}
+
+header > ul > li:nth-child(n) a {
+  color: black;
+}
+
+header > ul > li:nth-child(3) {
+  border: none;
+  background-color: #5ebe60;
+  border-radius: 30px;
+  width: 296px;
+  height: 50px;
+  align-content: center;
+  margin-top: 10px;
+}
+
+header > ul > li:nth-child(3) a {
+  color: white;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+header > ul > li:nth-child(3) img {
+  margin: 10px 20px;
+
+  float: left;
+  width: 27px;
+  height: 31px;
+}
+
+header > ul > li:nth-child(4) a {
+  font-size: 18px;
+}
+
+header > ul > li:nth-child(4) i {
+  margin-right: 10px;
+  font-size: 23px;
+}
+
+header > ul > li:nth-child(5) a {
+  font-weight: bold;
+}
+
+header > ul > li:nth-child(5) i {
+  margin-right: 10px;
+  font-size: 23px;
+}
+
+header > ul > li:nth-child(6) i {
+  font-size: 25px;
+  color: #51a352;
+}
+
+header > ul > li:nth-child(6) i:hover {
+  font-size: 30px;
+}
+
+/* end header */
+
+/* start navigation */
+nav {
+  margin-top: 25px;
+  height: 58px;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+nav ul {
+  list-style-type: none;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+  padding: 12px 14px;
+  display: block;
+  text-align: center;
+}
+
+nav ul > li:hover {
+  background-color: hsla(0, 6%, 90%, 0.265);
+}
+
+nav li:hover .menu-down {
+  display: block;
+  position: relative; /* or absolute */
+  z-index: 9999;
+ 
+}
+
+
+
+nav li {
+  float: left;
+  margin-right: 10px;
+}
+
+/* drop-menu */
+.menu-down {
+  height: auto;
+  width: 200px;
+  display: none;
+  z-index: 999;
+}
+
+.menu-down ul {
+  display: block;
+  margin: 0;
+}
+.menu-down ul li {
+  width: 100%;
+}
+
+/* .menu-down ul li:hover{
+    background-color: hsla(0, 6%, 90%, 0.265);
+} */
+
+/* start main */
+
+/* top main */
+.breadcumbs-container {
+  height: 21px;
+  width: 100%;
+  padding: 0 25px;
+  margin: 55px 25px;
+  font-size: larger;
+}
+
+.breadcumbs-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.breadcumbs-container a:hover {
+  text-decoration: underline;
+}
+
+.breadcumbs-container span {
+  color: hsl(0, 2%, 62%);
+}
+
+main .title-product {
+  height: 42px;
+  padding: 0 25px;
+  margin-left: 5px;
+  font-size: 34px;
+}
+
+main aside {
+  width: 30%;
+  float: left;
+  padding: 20px;
+}
+
+main section {
+  width: 70%;
+  float: left;
+  padding: 20px;
+}
+
+section > input {
+  width: 100%;
+  height: 40px;
+  padding: 10px 30px 10px 40px;
+  margin: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+section .icon {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/768px-Search_Icon.svg.png")
+    no-repeat left;
+  background-size: 30px;
+}
+
+section > #button-search-input {
+  position: fixed;
+  left: 0;
+}
+
+.gf-action,
+.filter-selection {
+  display: inline-block;
+}
+.gf-action {
+  margin: 12px;
+  padding: 8px;
+  font-size: larger;
+}
+
+.filter-selection {
+  float: right;
+  margin: 12px;
+  padding: 8px;
+  font-size: larger;
+}
+
+#ddlShow {
+  border: none;
+  font-size: 18px;
+  outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+  main aside,
+  main section {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* start section */
+.row{
+  margin: 20px;
+  width: 100%;
+}
+.gallery{
+  display: inline-block;
+  width: 222px;
+  height: auto;
+  border: 1px solid  hsla(0, 0%, 87%, 0.292);
+  padding: 13px;
+  margin: 20px;
+}
+
+.gallery .decription{
+  padding: 15px;
+  
+}
+
+.decription a{
+  text-decoration: none;
+  color: black;
+}
+
+.gallery .decription .money{
+  color: red;
+}
+
+.decription .money-price{
+  color: hsl(0, 0%, 60%);
+}
+
+.gallery:hover{
+  border: 1px solid hsla(0, 0%, 87%, 0.708);
+  cursor: pointer;
+  transform: scale(1.1);
+  
+  transform-origin: bottom;
+}
+
+.gallery img{
+  width: 100%;
+  height: auto;
+}
+/* pagination css */
+.pagination{
+  width: 100%;
+  height: 30px;
+  padding: 20px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.pagination span{
+  margin: 0 10px;
+  font-size: larger;
+  
+}
+
+.pagination span a{
+  text-decoration: none;
+  color: hsl(0, 0%, 50%);
+}
+
+.pagination span a:hover{
+  color: black;
+  font-weight: bold;
+}
+/* start footer */
+footer {
+  margin-top: 1400px;
+  height: 660px;
+  background-color: #1872b9;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+footer .footer-content {
+  width: 150px;
+  height: 150px;
+  font-size: 8em;
+  text-align: center;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 10%;
+  
+}
+
+#content1 {
+  background-color: hsla(0, 100%, 50%, 0.708);
+}
+
+#content2 {
+  background-color: hsla(131, 100%, 50%, 0.708);
+}
+
+#content3 {
+  background-color: hsla(230, 100%, 50%, 0.708);
+}
+
+#content4 {
+  background-color: hsla(65, 100%, 50%, 0.708);
+}
