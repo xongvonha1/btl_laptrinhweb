@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   font-family: sans-serif;
+  padding: 0;
 }
 
 .top-header {
@@ -211,8 +212,6 @@ nav li {
   color: hsl(0, 2%, 62%);
 }
 
-
-
 main .title-product {
   height: 42px;
   padding: 0 25px;
@@ -279,8 +278,12 @@ section > #button-search-input {
 }
 
 @media only screen and (max-width: 768px) {
-  body{
+  body {
     font-size: smaller;
+  }
+  .top-header {
+    display: block;
+    width: 100%;
   }
   header {
     display: block;
@@ -301,7 +304,7 @@ section > #button-search-input {
   header > ul > li:nth-child(6) {
     display: none;
   }
-  main{
+  main {
     margin-top: 30%;
   }
   main aside,
@@ -309,7 +312,7 @@ section > #button-search-input {
     display: block;
     width: 100%;
   }
-  .footer-content{
+  .footer-content {
     display: block;
     width: 100%;
   }
