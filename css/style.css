@@ -454,6 +454,7 @@ footer{
   bottom: 0;
   color: black;
   font-size: 16px;
+  
 }
 .container{
   width: 1140px;
@@ -464,7 +465,7 @@ footer{
 .footer-content{
   width: 33.3%;
 }
-h3{
+.footer-content h3{
   font-size: 28px;
   margin-bottom: 15px;
   text-align: center;
