@@ -355,13 +355,15 @@ section > #button-search-input {
     border-left: none;
     
   }
-  footer .footer-content{
+  .container .footer-content{
     margin-bottom: 30px;
+    width: 100%;
+    
   }
   footer .container {
     display: grid;
     grid-template-columns: 100%;
-    margin: 50px;
+    
   }
 }
 
@@ -457,7 +459,7 @@ footer{
   
 }
 .container{
-  width: 1140px;
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -515,11 +517,11 @@ footer{
   color: black;
   font-size: 35px;
 }
-a{
+.footer-content a{
   text-decoration: none;
   color: black;
 }
-a:hover{
+.footer-content a:hover{
   color: #1878b9;
 }
 .social-icons i:hover{
