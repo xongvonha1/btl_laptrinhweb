@@ -165,6 +165,10 @@ nav a {
   text-align: center;
 }
 
+nav ul li:nth-child(n) i{
+  margin-right: 10px;
+}
+
 nav ul > li:hover {
   background-color: hsla(0, 6%, 90%, 0.265);
 }
@@ -378,7 +382,7 @@ img {
     margin: auto;
   }
   main {
-    margin-top: 40%;
+    margin-top: 20%;
   }
   .product-div {
     grid-template-columns: 100%;
@@ -396,12 +400,13 @@ img {
   }
 
   footer .footer-content{
+    width: 100%;
     margin-bottom: 30px;
   }
   footer .container {
     display: grid;
     grid-template-columns: 100%;
-    margin: 50px;
+    
   }
 }
 
@@ -422,7 +427,7 @@ footer{
   font-size: 16px;
 }
 .container{
-  width: 1140px;
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: center;

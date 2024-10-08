@@ -163,6 +163,10 @@ nav ul > li:hover {
   background-color: hsla(0, 6%, 90%, 0.265);
 }
 
+nav ul li:nth-child(n) i{
+  margin-right: 10px;
+}
+
 nav li:hover .menu-down {
   display: block;
   position: relative; /* or absolute */
@@ -326,12 +330,13 @@ section > #button-search-input {
   header > ul > li:nth-child(6) {
     display: none;
   }
+  
   .navbar{
     text-align: center;
     margin: auto;
   }
   main {
-    margin-top: 40%;
+    margin-top: 20%;
   }
   breadcumbs-container span{
     margin-top: 10px;
@@ -540,3 +545,5 @@ footer{
   font-size: 16px;
   padding: 7px;
 }
+
+
