@@ -3,16 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    <title>Cell Phone</title>
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <script
+      src="https://kit.fontawesome.com/a138a350ab.js"
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/deltailproduct.css" />
-
-    <title>Detail Product</title>
+    ></script>
   </head>
   <body>
     <div class="top-header">
@@ -22,9 +18,7 @@
     <header>
       <ul>
         <li>
-          <a href="#"
-            ><img src="./img/anh1.webp" alt="logo" width="250px" height="77px"
-          /></a>
+          <a href="#"><img src="./img/anh1.webp" alt="logo" width="250px" /></a>
         </li>
         <li>
           <input type="text" placeholder="What are your looking for?" /><button
@@ -104,85 +98,71 @@
         </li>
       </ul>
     </nav>
+
     <main>
       <div class="breadcumbs-container">
-        <a href="#">Home </a>>
-        <a href="#">Tablet</a>
-        <span>
-          > SAMSUNG Galaxy Tab S10+ (256GB, 12GB, Wi-Fi Only) 11" WIFI Android
-          Tablet X820 (Graphite)</span
-        >
+        <a href="#">Home</a>
+        <span> > Cell Phone</span>
       </div>
-      <div class="main-wrapper">
-        <div class="container">
-          <div class="product-div">
-            <div class="product-div-left">
-              <div class="img-container">
-                <img
-                  src="https://cellmigo.com/cdn/shop/files/tab-s10-plus-gray-1_1000x1000.jpg?v=1728067807"
-                  alt="watch"
-                />
-              </div>
-              <div class="hover-container">
-                <div>
-                  <img
-                    src="https://cellmigo.com/cdn/shop/files/tab-s10-plus-gray-1_1000x1000.jpg?v=1728067807"
-                  />
-                </div>
-                <div>
-                  <img
-                    src="https://cellmigo.com/cdn/shop/files/tab-s10-plus-1_1000x1000.jpg?v=1728067808"
-                  />
-                </div>
-                <div>
-                  <img
-                    src="https://cellmigo.com/cdn/shop/files/tab-s10-plus-gray-2_1000x1000.jpg?v=1728067808"
-                  />
-                </div>
-                <div>
-                  <img
-                    src="https://cellmigo.com/cdn/shop/files/tab-s10-plus-gray-3_1000x1000.jpg?v=1728067809"
-                  />
-                </div>
-                <div>
-                  <img
-                    src="https://cellmigo.com/cdn/shop/files/tab-s10-plus-5_1000x1000.jpg?v=1728067810"
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="product-div-right">
-              <span class="product-name"
-                >SAMSUNG Galaxy Tab S10+ (256GB, 12GB, Wi-Fi Only) 11" WIFI
-                Android Tablet X820 (Graphite)</span
-              >
-              <span class="product-price">$ 1050</span>
-              <div class="product-rating">
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star-half-alt"></i></span>
-                <span>(350 ratings)</span>
-              </div>
-              <p class="product-description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
-                animi ad minima veritatis dolore. Architecto facere dignissimos
-                voluptate fugit ratione molestias quis quidem exercitationem
-                voluptas.
-              </p>
-              <div class="btn-groups">
-                <button type="button" class="add-cart-btn">
-                  <i class="fas fa-shopping-cart"></i>add to cart
-                </button>
-                <button type="button" class="buy-now-btn">
-                  <i class="fas fa-wallet"></i>buy now
-                </button>
-              </div>
-            </div>
-          </div>
+      <h2 class="title-product">Tablets</h2>
+
+      <aside>
+        <div class="option-block">
+          <h3>
+            Category<span><i class="fa-solid fa-angle-down"></i></span>
+          </h3>
         </div>
-      </div>
+
+        <div class="option-block">
+          <h3>
+            Brands<span><i class="fa-solid fa-angle-down"></i></span>
+          </h3>
+        </div>
+      </aside>
+
+      <section>
+        <input type="text" placeholder="Search products" class="icon" />
+        <div class="gf-action">
+          <span class="gf-summary"> <b>46</b> product </span>
+        </div>
+        <div class="filter-selection">
+          <label for="ddlShow">Show</label>
+          <select name="showProduct" id="ddlShow">
+            <option value="12">12</option>
+            <option value="24">24</option>
+            <option value="48">48</option>
+          </select>
+          <label for="globo-dropdown-sort">
+            <span>Date, new to old</span>
+            <i class="fa-solid fa-angle-down"></i>
+          </label>
+        </div>
+
+        <div class="container-box">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+
+        <!-- pagination -->
+        <div class="pagination">
+          <span>1</span>
+          <span><a href="#">2</a></span>
+          <span><a href="#">3</a></span>
+          <span>...</span>
+          <span><a href="#">5</a></span>
+          <span>→</span>
+        </div>
+      </section>
     </main>
 
     <footer>
@@ -215,7 +195,5 @@
         <p>&copy, 2024, project web application</p>
       </div>
     </footer>
-
-    <script src="./script/productdetail.js"></script>
   </body>
 </html>
