@@ -368,7 +368,7 @@ section > #button-search-input {
   footer .container {
     display: grid;
     grid-template-columns: 100%;
-    
+    height: auto;
   }
 }
 
